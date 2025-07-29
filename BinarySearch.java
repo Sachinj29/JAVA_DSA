@@ -1,6 +1,6 @@
 
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 class BinarySearch {
     int binarySearch(int array[], int x, int low, int high) {
@@ -51,3 +51,20 @@ class BinarySearch {
         scanner.close();
     }
 }
+
+
+
+
+
+/*
+
+Time Complexities
+
+Best case complexity: O(1)
+Average case complexity: O(log n)
+Worst case complexity: O(log n)
+Space Complexity
+
+The space complexity of the binary search is O(1).
+
+*/
