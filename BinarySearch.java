@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 class BinarySearch {
-    int binarySearch(int array[], int x, int low, int high) {
+    public static int binarySearch(int array[], int x, int low, int high) {
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
@@ -40,8 +40,8 @@ class BinarySearch {
         System.out.print("Enter the element to search: ");
         int x = scanner.nextInt();
 
-        BinarySearch ob = new BinarySearch();
-        int result = ob.binarySearch(array, x, 0, n - 1);
+       // BinarySearch ob = new BinarySearch();
+        int result = binarySearch(array, x, 0, n - 1);
 
         if (result == -1)
             System.out.println("Element not found");
