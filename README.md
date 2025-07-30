@@ -7,3 +7,4 @@ Searching :
 2. BinarySearch
 
 Sorting :
+1. Bubble Sort
