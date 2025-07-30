@@ -5,9 +5,9 @@ class InsertionSort {
   void insertionSort(int array[]) {
     int size = array.length;
 
-    for (int step = 1; step < size; step++) {
-      int key = array[step];
-      int j = step - 1;
+    for (int i = 1; i < size; i++) {
+      int key = array[i];
+      int j = i - 1;
 
       // Compare key with each element on the left of it until an element smaller than
       // it is found.
