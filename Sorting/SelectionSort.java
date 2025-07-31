@@ -4,16 +4,16 @@ import java.util.Scanner;
 class SelectionSort {
     void selectionSort(int array[]) {
         int size = array.length;
-        for (int step = 0; step < size - 1; step++) {
-            int min_idx = step;
-            for (int i = step + 1; i < size; i++) {
-                if (array[i] < array[min_idx]) {
-                    min_idx = i;
+        for (int i = 0; i < size - 1; i++) {
+            int min_idx = i;
+            for (int j = i + 1; j < size; j++) {
+                if (array[j] < array[min_idx]) {
+                    min_idx = j;
                 }
             }
             // Swap
-            int temp = array[step];
-            array[step] = array[min_idx];
+            int temp = array[i];
+            array[i] = array[min_idx];
             array[min_idx] = temp;
         }
     }
