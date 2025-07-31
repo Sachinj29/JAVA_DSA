@@ -17,6 +17,7 @@ class SelectionSort {
             array[min_idx] = temp;
         }
     }
+    
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
