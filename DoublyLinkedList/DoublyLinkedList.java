@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Implements a Doubly Linked List data structure in Java.
  * Includes methods for insertion, deletion, traversal, and search.
  */
-public class AllOperationDoublyLinkedList {
+public class DoublyLinkedList {
 
     // Inner class to represent a node in the doubly linked list
     private class Node {
@@ -31,7 +31,7 @@ public class AllOperationDoublyLinkedList {
     /**
      * Constructor for an empty DoublyLinkedList.
      */
-    public AllOperationDoublyLinkedList() {
+    public DoublyLinkedList() {
         this.head = null;
         this.tail = null;
         this.size = 0;
@@ -245,7 +245,7 @@ public class AllOperationDoublyLinkedList {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        AllOperationDoublyLinkedList list = new AllOperationDoublyLinkedList();
+        DoublyLinkedList list = new DoublyLinkedList();
         int choice, data, position;
 
         while (true) {
