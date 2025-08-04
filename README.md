@@ -89,3 +89,4 @@ Contributions are welcome! If you have suggestions or find bugs, feel free to fo
 This project is licensed under the **MIT License**.
 
 Happy Coding! ✨
+
