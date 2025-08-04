@@ -62,7 +62,7 @@ This repository is logically structured to cover the most essential DSA topics.
 
 1.  **Clone the Repository**:
     ```
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Sachinj29/JAVA_DSA.git
     ```
 2.  **Navigate and Explore**:
     Each algorithm is in its own directory. Browse to any folder to see the implementation.
